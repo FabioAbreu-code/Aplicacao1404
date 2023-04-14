@@ -7,4 +7,9 @@
     <string name="peso">Peso</string>
     <string name="button">Button</string>
     <string name="MensagemRecebida">Mensagem Recebida</string>
+    <string name="nome_vazio">Nome Vazio</string>
+    <string name="email_vazio">Email Vazio</string>
+    <string name="telefone_vazio">Telefone Vazio</string>
+    <string name="altura_vazio">Altura Vazio</string>
+    <string name="peso_vazio">Peso Vazio</string>
 </resources>
