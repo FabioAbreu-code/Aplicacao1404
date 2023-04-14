@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Aplicacao1404</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="telefone">Telefone</string>
+    <string name="altura">Altura</string>
+    <string name="peso">Peso</string>
+    <string name="button">Button</string>
 </resources>
