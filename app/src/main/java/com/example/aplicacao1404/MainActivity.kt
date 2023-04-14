@@ -45,26 +45,30 @@ class MainActivity : AppCompatActivity() {
             editNome.error = getString(R.string.nome_vazio)
             editNome.requestFocus()
             return
-        } else if (telefone.isBlank()){
+        }
+        if (telefone.isBlank()){
             editTelefone.error = getString(R.string.telefone_vazio)
             editTelefone.requestFocus()
             return
-        } else if (email.isBlank()){
+        }
+        if (email.isBlank()){
             editEmail.error = getString(R.string.email_vazio)
             editEmail.requestFocus()
             return
-        } else if (altura.isBlank()){
+        }
+        if (altura.isBlank()){
             editAltura.error = getString(R.string.altura_vazio)
             editAltura.requestFocus()
             return
-        } else if (peso.isBlank()){
+        }
+        if (peso.isBlank()){
             editPeso.error = getString(R.string.peso_vazio)
             editPeso.requestFocus()
             return
         }
 
 
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, MainActivity2_MostrarMensagem::class.java)
         intent.putExtra(msg_nome,nome)
         intent.putExtra(msg_telefone,telefone)
         intent.putExtra(msg_email,email)
